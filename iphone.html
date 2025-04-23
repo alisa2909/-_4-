@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./img/owl.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/close.js" charset="UTF-8"></script>
+    <script src="./js/modal.js" charset="UTF-8"></script>
+</head>
+<body>
+
+    <style>
+        body{
+            /* padding: 2em; */
+            background: #f9f9f9f9;
+            color: #eee;
+    
+        }
+    </style>
+
+<nav>
+    <div class="nav_item">
+            <a href="index.html"><img class="logo_img" src="./img/mac.png" alt=""></a>
+            <a href="mac.html">Mac</a>
+            <a class="colora" href="./iphone.html">iPhone</a>
+            <a href="./ipad.html">iPad</a>
+            <a href="./watch.html">Watch</a>
+            <a href="./tv.html">TV</a>
+            <a href="./music.html">Music</a>
+            <a href="./support.html">Support</a>
+            <a class="search_trigger" href="#"><img class="nav_img"  src="./img/search.png" alt=""></a>
+            <a href="#">Basket</a>
+    </div>
+    <div class="search_fade_in none">
+            <span class="close_search">x</span>
+            <input type="text" placeholder="Search">
+    </div>
+</nav>
+
+    
+<H1>Em & Rem , Alert</H1>
+
+<button class="open_modal">Открыть модальное окно</button>
+<button class="show_alert" data-type="error">Ошибка</button>
+<button class="show_alert" data-type="success">Успех</button>
+<button class="show_alert" data-type="warning">Предупреждение</button>
+<button class="show_alert" data-type="info">Информирование</button>
+
+<div class="modal_overlay">
+  <div class="modal">
+    <h2>Our modal window</h2>
+    <p>Description ....</p>
+    <button class="close_modal">x</button>
+  </div>
+</div>
+
+<div id="alert_container"></div>
+
+
+</body>
+</html>
+    

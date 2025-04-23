@@ -1,0 +1,63 @@
+h1{
+    font-size: 2em;
+    color: #000000;
+    margin-left: 26em;
+}
+
+.open_modal, .show_alert , .close_modal{
+    font-size: 1em;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    margin-left: 1em;
+    width: 20vw;
+}
+
+.modal{
+    color:black;
+    font-size: 1.5em;
+    position: relative;
+    margin-left: 40%;
+    margin-top: 10em;
+    width: 30em;
+    background: #eee;
+    border-radius: 10px;
+    box-shadow: 0 0.5em 2em rgba(105, 105, 105, 0.067);
+    text-align: center;
+    padding: 2em;
+}
+
+.modal_overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.alert_error{
+    background: rgb(203, 119, 119);
+    color: #c0392b;
+    border-color: #c0392b;
+}
+
+.alert_warning{
+    background: rgb(202, 203, 119);
+    color: #9b8e1c;
+    border-color: #9b8e1c;
+}
+
+.alert_info{
+    background: rgb(120, 119, 203);
+    color: #3c2bc0;
+    border-color: #3c2bc0;
+}
+
+.alert_success{
+    background: rgb(119, 203, 119);
+    color: #158917;
+    border-color: #158917;
+}
